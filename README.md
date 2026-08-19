@@ -1,6 +1,9 @@
 To-do list project
+
 Create a project folder
+
 Let's create a folder called:
+
 Create the virtual environment
 Now run:
 py -3.12 -m venv todoenv
@@ -378,8 +381,10 @@ control flow
                 HTML
                    ↓
               Browser
+              
 
 What happens when you ADD a Todo
+
 Browser
    ↓
 POST request
@@ -441,6 +446,9 @@ cd todo_project
 create a repository in github
 you will get a link of your repo
 https://github.com/viveksirji/projects.git
+
+
+
 Run these 3 commands in your VS Code terminal (make sure your prompt shows PS C:\my_projects\todo_project>):
 git branch -M main
 git remote add origin https://github.com/viveksirji/projects.git
