@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Todo App</title>
+    <title>Todo App | Developed by Vivek Pandey</title>
 
     <style>
         body {
@@ -17,10 +17,25 @@
             background: white;
             padding: 30px;
             border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .developer-badge {
+            text-align: center;
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: #007bff;
+            background-color: #e9f5ff;
+            padding: 10px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
         }
 
         h1 {
             text-align: center;
+            margin-bottom: 25px;
         }
 
         form {
@@ -60,12 +75,23 @@
         a {
             margin-left: 10px;
         }
+
+        .footer {
+            text-align: center;
+            margin-top: 25px;
+            font-size: 0.9rem;
+            color: #666;
+        }
     </style>
 </head>
 
 <body>
 
 <div class="container">
+
+    <div class="developer-badge">
+        🚀 Built by Vivek Pandey
+    </div>
 
     <h1>My Todo List</h1>
 
@@ -121,6 +147,10 @@
         {% endfor %}
 
     </ul>
+
+    <div class="footer">
+        Project Portfolio Application • Designed & Developed by <strong>Vivek Pandey</strong>
+    </div>
 
 </div>
 
